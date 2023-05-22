@@ -1,31 +1,40 @@
 {
-  "name": "cra-template-adrinlol",
-  "version": "1.4.0",
-  "keywords": [
-    "react-template",
-    "landy-template",
-    "cra-template",
-    "react-boilerplate",
-    "landing-page-template",
-    "react-free-template",
-    "react-landing-page-template",
-    "react-typescript-template"
-  ],
-  "main": "template.json",
-  "description": "Landy is a free React landing page template designed for developers and startups.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Adrinlol/create-react-app-adrinlol.git"
+  "name": "barlovento",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "license": "MIT",
-  "engines": {
-    "node": ">=10"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
-  },
-  "files": [
-    "template",
-    "template.json"
-  ]
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "@types/node": "^15.6.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.9",
+    "antd": "^4.10.3",
+    "axios": "^0.21.1",
+    "i18next": "^19.8.4",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "styled-components": "^5.2.1",
+    "react-i18next": "^11.8.5",
+    "react-awesome-reveal": "^3.7.1",      
+    "react-router-dom": "^5.2.0"
+  }
 }
